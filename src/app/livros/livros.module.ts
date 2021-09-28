@@ -4,12 +4,14 @@ import { LivrosService } from './shared';
 import { ListarLivrosComponent } from './listar/listar-livros.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { CadastrarLivroComponent } from './cadastrar/cadastrar-livro.component';
 
 
 
 @NgModule({
   declarations: [
-    ListarLivrosComponent
+    ListarLivrosComponent,
+    CadastrarLivroComponent
   ],
   imports: [
     CommonModule,
