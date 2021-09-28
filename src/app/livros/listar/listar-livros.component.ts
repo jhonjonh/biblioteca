@@ -15,7 +15,9 @@ export class ListarLivrosComponent implements OnInit {
   ngOnInit() {
     this.livros = this.listarTodos();
     this.livros = [
-      new Livro (1,'Réri Poti', 'Jotacá Rouling', 2014, 'Abriu' )
+      new Livro (1,'Réri Poti', 'Jotacá Rouling', 2014, 'Abriu' ),
+      new Livro (2,'50 Tons de Roxo', 'Jeyquérisson Dassilva', 2008, 'Ática' ),
+      new Livro (3,'A Volta dos que não Foram', 'Wheber Mendelez', 1945, 'Cia das Letras' )
     ]
   }
 
